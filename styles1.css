@@ -1,0 +1,177 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*body*/
+
+body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  border: black solid 1px;
+}
+
+/*nav*/
+
+nav {
+  background-color: #75e2e6;
+  display: inline-block;
+  height: 70px;
+  width:100%;
+  border-bottom: 3px solid #408DA7;
+
+}
+
+
+  .dog-icon {
+    display: inline-block;
+    height: 50px;
+    margin-left: 7px;
+    margin-top: 7px;
+    width: 50px;
+}
+
+ul {
+  display: inline-block;
+  float: right;
+  margin-right: 45px;
+  margin-top: 25px;
+}
+
+li {
+  display: inline;
+  padding:inherit;
+}
+
+/*section*/
+
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  margin-top: auto;
+}
+
+section {background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/park.jpg) no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 550px;
+  padding: 30px;
+}
+
+span{
+  font-weight: 700;
+}
+  .top-dog{
+  border: 5px solid#048eaa;
+  border-color:#048eaa;
+  border-width: thick;
+  border-radius: 50%;
+  display: block;
+  height: 185px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+  form{
+    text-align: center;
+
+  }
+  label{
+    color: white;
+    display: block;
+    margin-right: 22%;
+  }
+
+   input{
+    height: 40px;
+    width: 25%;
+    margin-bottom: 10px;
+  }
+  
+  .top-button{
+    background-color: #75e2e6;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 25%;
+  }
+ 
+/*Main*/
+
+main{
+  display: inline-block;
+  text-align: center;
+}
+
+article{
+  display: inline-block;
+  width: 33%;
+}
+.middle-dogs{
+  margin-bottom: 23px;
+  text-align: -webkit-center
+}
+
+.middle-dog-headings{
+  padding-top: 30px;
+  text-align: center;
+
+}
+
+.middle-dog-pics{
+  border-radius: 50%;
+  border: 5px solid #048eaa;
+  display: block;
+  height: 200px;
+  margin: 50px auto;
+
+}
+
+.middle-dog-para{
+  height: 200px;
+  width: 75%;
+  text-align: left;
+}
+
+.bottom-buttons{
+  background-color: #408DA7;
+  color: white;
+  font-size: 19px;
+  margin:15px;
+  width: 73%;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+/*footer*/
+
+footer {
+  background-color: #408DA7;
+  text-align: center;
+  height: 175px;
+  padding: 20px;
+}
+
+  h3{
+    color: white;
+    font-weight: 400;
+  }
+  .bottom-links {
+    margin:10px;
+
+}
+/*code for media queries*/
+
+@media(max-width: 900px){
+  .middle-dogs {
+    display: block;
+    width: 100%;
+    background-color: 
+  }
+}
